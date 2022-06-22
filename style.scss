@@ -73,6 +73,7 @@ body {
 
 /* ========================================================================= */
 /* 2. TYPOGRAPHY */
+/* MAIN | TYPOGRAPHY */
 #main {
   h1 {
     @include heading3;
@@ -85,6 +86,20 @@ body {
   }
   p {
     text-align: center;
+  }
+}
+/* SECTION | TYPOGRAPHY */
+#maker-lifestyle {
+  .component {
+    .title {
+      @include heading4;
+      color: $white;
+      text-align: center;
+    }
+    .description {
+      @include description;
+      text-align: center;
+    }
   }
 }
 
@@ -116,6 +131,57 @@ body {
     width: 327px;
     margin-top: 0;
     margin-bottom: 32px;
+  }
+}
+
+/* SECTION | LAYOUT */
+#maker-lifestyle {
+  height: 1134px;
+  width: 327px;
+  margin: 145px 0;
+  .component {
+    @include flexbox;
+    /* ILLUSTRATION ICONS | LAYOUT */
+    .bg-color {
+      height: 124px;
+      width: 120px;
+      border-radius: 45px;
+      background-color: $secondary;
+      @include flexbox;
+      .egg {
+        height: 80px;
+        width: 66px;
+        margin: 22px 24px 22px 30px;
+      }
+      .money {
+        height: 67px;
+        width: 56px;
+        margin: 28px 32px;
+      }
+      .martini {
+        height: 71px;
+        width: 60px;
+        margin: 27px 30px 26px 30px;
+      }
+      .car {
+        height: 56px;
+        width: 78px;
+        margin: 34px 21px 33px 21px;
+      }
+    }
+    /* TEXT BOX | LAYOUT */
+    .title {
+      height: 25px;
+      margin: 31px 0 11px 0;
+    }
+    .description {
+      height: 50px;
+      margin: 0 0 56px 24px;
+    }
+    .lifestyle, .travel {
+      width: 100%;
+      margin-left: -1px;
+    }
   }
 }
 
