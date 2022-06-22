@@ -16,7 +16,7 @@ $accent: rgb(62, 233, 229);
 $secondary: rgb(9, 62, 103);
 $white: rgb(255, 255, 255);
 $grey: rgb(118, 127, 152);
-$background: rgb(8, 12, 33);
+$background: hsla(230, 60%, 8%, 1);
 $error: rgb(255, 41, 101);
 @mixin reset{
   margin: 0;
@@ -56,6 +56,12 @@ $error: rgb(255, 41, 101);
   font-weight: 500;
   line-height: 25px;
   letter-spacing: 0px;
+}
+
+body {
+  background-color: $background;
+  @include description;
+  color: $grey;
 }
 
 /* ========================================================================= */
