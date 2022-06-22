@@ -73,10 +73,24 @@ body {
 
 /* ========================================================================= */
 /* 2. TYPOGRAPHY */
-
+#main {
+  h1 {
+    @include heading3;
+    color: $white;
+    text-align: center;
+    line-height: 40px;
+    .accent {
+      color: $accent;
+    }
+  }
+  p {
+    text-align: center;
+  }
+}
 
 /* ========================================================================= */
 /* 3. LAYOUT */
+/* LOGO | LAYOUT */
 #logo {
   margin-top: 30.1px;
   margin-bottom: 65.5px;
@@ -89,7 +103,21 @@ body {
 .bg-hero-img {
   display: none;
 }
-
+/* MAIN | LAYOUT */
+#main {
+  @include flexbox;
+  h1 {
+    height: 122px;
+    width: 250px;
+    margin-top: 39px;
+  }
+  p {
+    height: 100px;
+    width: 327px;
+    margin-top: 0;
+    margin-bottom: 32px;
+  }
+}
 
 /* ========================================================================= */
 /* 4. MEDIA QUERIES */

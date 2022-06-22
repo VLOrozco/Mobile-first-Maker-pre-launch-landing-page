@@ -25,8 +25,26 @@ body {
 
 /* ========================================================================= */
 /* 2. TYPOGRAPHY */
+#main h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 44px;
+  letter-spacing: 0px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 40px;
+}
+#main h1 .accent {
+  color: rgb(62, 233, 229);
+}
+#main p {
+  text-align: center;
+}
+
 /* ========================================================================= */
 /* 3. LAYOUT */
+/* LOGO | LAYOUT */
 #logo {
   margin-top: 30.1px;
   margin-bottom: 65.5px;
@@ -40,6 +58,25 @@ body {
 
 .bg-hero-img {
   display: none;
+}
+
+/* MAIN | LAYOUT */
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#main h1 {
+  height: 122px;
+  width: 250px;
+  margin-top: 39px;
+}
+#main p {
+  height: 100px;
+  width: 327px;
+  margin-top: 0;
+  margin-bottom: 32px;
 }
 
 /* ========================================================================= */
