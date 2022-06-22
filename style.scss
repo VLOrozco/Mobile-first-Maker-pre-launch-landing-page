@@ -18,6 +18,12 @@ $white: rgb(255, 255, 255);
 $grey: rgb(118, 127, 152);
 $background: hsla(230, 60%, 8%, 1);
 $error: rgb(255, 41, 101);
+@mixin flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 @mixin reset{
   margin: 0;
   padding: 0;
@@ -59,22 +65,31 @@ $error: rgb(255, 41, 101);
 }
 
 body {
+  @include flexbox;
   background-color: $background;
   @include description;
   color: $grey;
 }
 
 /* ========================================================================= */
-
 /* 2. TYPOGRAPHY */
 
 
 /* ========================================================================= */
-
 /* 3. LAYOUT */
-
+#logo {
+  margin-top: 30.1px;
+  margin-bottom: 65.5px;
+}
+#hero-img-mobile {
+  width: 375px;
+  position: relative;
+  overflow: hidden;
+}
+.bg-hero-img {
+  display: none;
+}
 
 
 /* ========================================================================= */
-
 /* 4. MEDIA QUERIES */

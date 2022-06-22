@@ -10,6 +10,10 @@
 /* ========================================================================= */
 /* 1. GLOBAL */
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: hsl(230deg, 60%, 8%);
   font-family: "Manrope", sans-serif;
   font-size: 15px;
@@ -23,5 +27,20 @@ body {
 /* 2. TYPOGRAPHY */
 /* ========================================================================= */
 /* 3. LAYOUT */
+#logo {
+  margin-top: 30.1px;
+  margin-bottom: 65.5px;
+}
+
+#hero-img-mobile {
+  width: 375px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-hero-img {
+  display: none;
+}
+
 /* ========================================================================= */
 /* 4. MEDIA QUERIES *//*# sourceMappingURL=style.css.map */
