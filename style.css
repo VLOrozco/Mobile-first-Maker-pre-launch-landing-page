@@ -548,18 +548,41 @@ body {
 
   /* PRICING SECTION */
   #pricing {
+    background-color: purple;
     width: 573px;
     height: 110px;
-    margin: 13px 98px 344px 97px;
+    margin: 13px 98px 800px 91px;
   }
-
-  .pricing-info {
-    width: 100% !important;
+  #pricing .pricing-info {
+    width: 100%;
   }
-
-  .h2-title {
+  #pricing .h2-title {
     font-size: 24px;
     line-height: 32.78px;
     margin-top: 22px;
+  }
+  #pricing .price-free {
+    width: 100%;
+    width: 445px;
+    height: 427px;
+    margin-top: 75px;
+    margin-left: 61px;
+    padding-left: 3px;
+  }
+  #pricing .price-free .price-description {
+    width: 369px;
+    margin-top: 23px;
+  }
+
+  .price-details {
+    margin-top: -3.5px;
+  }
+
+  .price-amount {
+    margin-left: 0;
+  }
+
+  .products .last {
+    margin-bottom: 48px;
   }
 }/*# sourceMappingURL=style.css.map */
