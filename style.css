@@ -10,17 +10,20 @@
 /* ========================================================================= */
 /* 1. GLOBAL */
 body {
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: hsl(230deg, 60%, 8%);
   font-family: "Manrope", sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 25px;
   letter-spacing: 0px;
+  background-color: hsl(230deg, 60%, 8%);
   color: rgb(118, 127, 152);
+  height: auto;
 }
 
 /* ========================================================================= */
@@ -114,6 +117,35 @@ body {
 }
 .price-details .product {
   color: rgb(255, 255, 255);
+}
+
+.price-paid, .pd-title {
+  color: rgb(8, 12, 32) !important;
+}
+
+.pd-description {
+  color: rgb(8, 12, 32) !important;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.dollar-amount {
+  font-family: "Manrope", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 55px;
+  letter-spacing: 0px;
+  font-style: normal;
+}
+.dollar-amount small {
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #080C20;
+  mix-blend-mode: normal;
+  opacity: 0.6;
 }
 
 /* ========================================================================= */
@@ -268,6 +300,68 @@ body {
 }
 .price-details .products .last {
   margin-bottom: 32px;
+}
+
+/* PAID | LAYOUT */
+.price-paid {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  background-color: rgb(62, 233, 229);
+  height: 448px;
+  width: 327px;
+  border-radius: 8px;
+  margin: 66px 24px 32px 0;
+}
+.price-paid .geometric-icon {
+  position: absolute;
+  top: -34px;
+  left: 30px;
+}
+
+.pd-title {
+  margin-top: 29px;
+  margin-bottom: 19px;
+}
+
+.pd-description {
+  height: 75px;
+  width: 268px;
+  margin-bottom: 26px;
+}
+
+.price-amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 205px;
+  height: 55px;
+  margin-left: 30.5px;
+}
+
+.pd-check-bullets {
+  width: 269px;
+  height: 136px;
+  margin-left: 30.32px;
+}
+
+.products {
+  margin-bottom: 12px;
+}
+.products .check {
+  margin-right: 15.32px;
+}
+.products .last {
+  margin-bottom: 32px;
+}
+
+footer {
+  position: relative;
 }
 
 /* ========================================================================= */

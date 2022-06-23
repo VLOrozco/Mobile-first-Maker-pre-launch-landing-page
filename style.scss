@@ -65,10 +65,12 @@ $error: rgb(255, 41, 101);
 }
 
 body {
+  @include reset;
   @include flexbox;
-  background-color: $background;
   @include description;
+  background-color: $background;
   color: $grey;
+  height: auto;
 }
 
 /* ========================================================================= */
@@ -141,6 +143,25 @@ body {
   // FREE CHECK ITEMS | TYPOGRAPHY
   .product {
     color: $white;
+  }
+}
+
+.price-paid, .pd-title {
+  color: rgba(8, 12, 32, 1) !important;
+}
+.pd-description {
+  color: rgba(8, 12, 32, 1) !important;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.dollar-amount {
+  @include heading2;
+  font-style: normal;
+  small {
+  @include description;
+  color: #080C20;
+  mix-blend-mode: normal;
+  opacity: 0.6;
   }
 }
 
@@ -287,8 +308,61 @@ body {
   }
 }
 
+/* PAID | LAYOUT */
+.price-paid {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  background-color: $accent;
+  height: 448px;
+  width: 327px;
+  border-radius: 8px;
+  margin: 66px 24px 32px 0;
+  .geometric-icon {
+    position: absolute;
+    top: -34px;
+    left: 30px;
+  }
+}
+.pd-title {
+  margin-top: 29px;
+  margin-bottom: 19px;
+}
+.pd-description {
+  height: 75px;
+  width: 268px;
+  margin-bottom: 26px;
+}
+
+.price-amount {
+  @include flexbox;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 205px;
+  height: 55px;
+  margin-left: 30.5px;
+}
+.pd-check-bullets {
+  width: 269px;
+  height: 136px;
+  margin-left: 30.32px;
+}
+
+.products {
+  margin-bottom: 12px;
+  .check {
+    margin-right: 15.32px;
+  }
+  .last {
+    margin-bottom: 32px; 
+  }
+}
 
 
-
+footer {
+  position: relative;
+}
 /* ========================================================================= */
 /* 4. MEDIA QUERIES */
