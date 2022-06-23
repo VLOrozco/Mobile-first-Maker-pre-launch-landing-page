@@ -438,4 +438,74 @@ body {
 }
 
 /* ========================================================================= */
-/* 4. MEDIA QUERIES *//*# sourceMappingURL=style.css.map */
+/* 4. MEDIA QUERIES */
+@media all and (min-width: 768px) {
+  body {
+    align-items: flex-start;
+  }
+
+  #logo {
+    margin-left: 39px;
+    margin-top: 48px;
+    margin-bottom: 10px;
+  }
+
+  #hero-img-mobile {
+    display: none;
+  }
+
+  .bg-hero-img {
+    display: block;
+    position: relative;
+    width: 768px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-direction: row;
+    overflow: hidden;
+  }
+  .bg-hero-img #hero-squiggle {
+    width: 386px;
+    height: 268px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 50px;
+  }
+  .bg-hero-img .drawing {
+    margin-top: 70px;
+  }
+  .bg-hero-img #hero-left {
+    width: 314px;
+    height: 356px;
+  }
+  .bg-hero-img #hero-right {
+    width: 317px;
+    height: 346px;
+    margin-top: 56px;
+  }
+
+  /* MAIN */
+  #main {
+    position: absolute;
+    top: 128px;
+    left: 191px;
+  }
+  #main h1 {
+    width: 350px;
+    margin-top: 80px;
+    margin-bottom: 0;
+    font-family: "Manrope", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0px;
+  }
+  #main p {
+    width: 457px;
+    margin-top: -14px;
+  }
+  #main .scroll {
+    margin-top: -26px;
+  }
+}/*# sourceMappingURL=style.css.map */
