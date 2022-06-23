@@ -502,6 +502,7 @@ body {
     height: 614px;
     margin-left: 97px;
     margin-right: 98px;
+    margin-top: 73px;
     :nth-child(odd) {
       margin-left: 30px;
     }
@@ -510,13 +511,20 @@ body {
     }
     .component {
       flex-direction: row;
+      margin-top: -5px;
       .bg-color {
         width: 120px;
         height: 123px;
       }
     }
+
+    .layout {
+      margin-top: -34px;
+    }
+
     .component-txt {
       margin-left: 55px;
+      margin-top: 23.5px;
       .title, .description {
         text-align: left;
       }
@@ -525,5 +533,8 @@ body {
         width: 340px;
       }
     }
+  }
+  #pricing {
+
   }
 }
