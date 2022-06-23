@@ -497,12 +497,14 @@ body {
       margin-top: -26px;
     }
   }
+  /* LIFESTYLE SECTION */
   #maker-lifestyle {
     width: 573px;
     height: 614px;
     margin-left: 97px;
     margin-right: 98px;
     margin-top: 73px;
+    // COMPONENT LAYOUT
     :nth-child(odd) {
       margin-left: 30px;
     }
@@ -517,11 +519,10 @@ body {
         height: 123px;
       }
     }
-
     .layout {
       margin-top: -34px;
     }
-
+    // COMPONENT TEXT
     .component-txt {
       margin-left: 55px;
       margin-top: 23.5px;
@@ -534,7 +535,23 @@ body {
       }
     }
   }
+  /* PRICING SECTION */
   #pricing {
-
+    // background-color:purple;
+    width: 573px;
+    height: 110px;
+    margin: 13px 98px 344px 97px;
   }
+  .pricing-info {
+    // background-color: yellow;
+    width: 100% !important;
+  }
+  .h2-title {
+    font-size: 24px;
+    line-height: 32.78px;
+    margin-top: 22px;
+  }
+  // .p {
+  //   margin-top: 27px;
+  // }
 }

@@ -509,6 +509,7 @@ body {
     margin-top: -26px;
   }
 
+  /* LIFESTYLE SECTION */
   #maker-lifestyle {
     width: 573px;
     height: 614px;
@@ -543,5 +544,22 @@ body {
   #maker-lifestyle .component-txt .description {
     margin-left: 0;
     width: 340px;
+  }
+
+  /* PRICING SECTION */
+  #pricing {
+    width: 573px;
+    height: 110px;
+    margin: 13px 98px 344px 97px;
+  }
+
+  .pricing-info {
+    width: 100% !important;
+  }
+
+  .h2-title {
+    font-size: 24px;
+    line-height: 32.78px;
+    margin-top: 22px;
   }
 }/*# sourceMappingURL=style.css.map */
