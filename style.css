@@ -148,6 +148,24 @@ body {
   opacity: 0.6;
 }
 
+.notification-txt .notified-title {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 33px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.notification-txt #email {
+  background-color: rgb(9, 62, 103);
+  color: rgb(255, 255, 255);
+  cursor: text;
+}
+.notification-txt #submit {
+  background-color: rgb(62, 233, 229);
+  font-weight: 800;
+  cursor: pointer;
+}
+
 /* ========================================================================= */
 /* 3. LAYOUT */
 /* LOGO | LAYOUT */
@@ -313,7 +331,7 @@ body {
   height: 448px;
   width: 327px;
   border-radius: 8px;
-  margin: 66px 24px 32px 0;
+  margin: 66px 24px 144px 0;
 }
 .price-paid .geometric-icon {
   position: absolute;
@@ -360,8 +378,37 @@ body {
   margin-bottom: 32px;
 }
 
-footer {
+#get-notified {
+  width: 100%;
+  z-index: 99;
+}
+
+.notified-img {
   position: relative;
+  opacity: 0.25;
+}
+
+.notification-txt {
+  position: absolute;
+  height: 218px;
+  width: 328px;
+}
+.notification-txt .notified-title {
+  height: 67px;
+  margin-bottom: 31px;
+}
+.notification-txt #email {
+  height: 48px;
+  border-radius: 24px;
+  border: none;
+  padding-left: 18px;
+  margin-bottom: 24px;
+}
+.notification-txt #submit {
+  height: 48px;
+  width: 327px;
+  border-radius: 24px;
+  border: none;
 }
 
 /* ========================================================================= */
