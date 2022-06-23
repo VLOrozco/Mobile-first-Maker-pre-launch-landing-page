@@ -23,7 +23,7 @@ body {
   letter-spacing: 0px;
   background-color: hsl(230deg, 60%, 8%);
   color: rgb(118, 127, 152);
-  height: auto;
+  height: 100%;
 }
 
 /* ========================================================================= */
