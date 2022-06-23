@@ -514,7 +514,6 @@ body {
     height: 614px;
     margin-left: 97px;
     margin-right: 98px;
-    margin-top: 78px;
   }
   #maker-lifestyle :nth-child(odd) {
     margin-left: 30px;
@@ -524,7 +523,6 @@ body {
   }
   #maker-lifestyle .component {
     flex-direction: row;
-    margin-top: -5px;
   }
   #maker-lifestyle .component .bg-color {
     width: 120px;
