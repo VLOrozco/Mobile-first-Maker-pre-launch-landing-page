@@ -159,11 +159,14 @@ body {
   background-color: rgb(9, 62, 103);
   color: rgb(255, 255, 255);
   cursor: text;
+  font-size: 16px;
+  font-weight: 600;
 }
 .notification-txt #submit {
   background-color: rgb(62, 233, 229);
-  font-weight: 800;
+  font-weight: 700;
   cursor: pointer;
+  font-size: 16px;
 }
 
 /* ========================================================================= */
@@ -264,6 +267,8 @@ body {
 #pricing {
   margin: 0;
   padding: 0;
+  height: 1163px;
+  margin-bottom: 144px;
   /* FREE | LAYOUT */
 }
 #pricing .pricing-info {
@@ -328,10 +333,12 @@ body {
   align-items: flex-start;
   position: relative;
   background-color: rgb(62, 233, 229);
-  height: 448px;
+  height: 455px;
   width: 327px;
   border-radius: 8px;
   margin: 66px 24px 144px 0;
+  padding-top: 11px;
+  padding-bottom: 32px;
 }
 .price-paid .geometric-icon {
   position: absolute;
@@ -366,6 +373,7 @@ body {
   width: 269px;
   height: 136px;
   margin-left: 30.32px;
+  margin-top: 19px;
 }
 
 .products {
@@ -378,33 +386,51 @@ body {
   margin-bottom: 32px;
 }
 
+/* FOOTER  | GET NOTIFIED | LAYOUT */
 #get-notified {
-  width: 100%;
+  width: 375px;
   z-index: 99;
+  overflow: hidden;
 }
 
 .notified-img {
   position: relative;
-  opacity: 0.25;
+  -o-object-fit: stretch;
+     object-fit: stretch;
+  margin-top: 15px;
+  left: -100px;
 }
 
 .notification-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   position: absolute;
   height: 218px;
   width: 328px;
+  margin: 0 23.5px;
+  margin-top: -93px;
+  padding-bottom: 164px;
 }
 .notification-txt .notified-title {
   height: 67px;
+  width: 230px;
   margin-bottom: 31px;
 }
-.notification-txt #email {
+
+.input {
+  width: 327px;
+}
+.input #email {
   height: 48px;
+  width: 307.9px;
   border-radius: 24px;
   border: none;
   padding-left: 18px;
   margin-bottom: 24px;
 }
-.notification-txt #submit {
+.input #submit {
   height: 48px;
   width: 327px;
   border-radius: 24px;
