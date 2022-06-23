@@ -551,7 +551,7 @@ body {
     background-color: purple;
     width: 573px;
     height: 110px;
-    margin: 13px 98px 800px 91px;
+    margin: 13px 98px 1150px 91px;
   }
   #pricing .pricing-info {
     width: 100%;
@@ -584,5 +584,18 @@ body {
 
   .products .last {
     margin-bottom: 48px;
+  }
+
+  /* PAID */
+  .price-paid {
+    height: 482px;
+    width: 445px;
+    margin-top: 82px;
+    padding-bottom: 59px;
+  }
+
+  .dollar-amount {
+    margin-top: -28px;
+    margin-left: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
