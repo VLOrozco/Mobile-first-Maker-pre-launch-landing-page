@@ -103,6 +103,48 @@ body {
   }
 }
 
+/* PRICING | TYPOGRAPHY */
+.pricing-info {
+  .h2-title {
+    @include heading2;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: $white;
+  }
+  .p {
+    @include description;
+    text-align: center;
+  }
+}
+// FREE CONTAINER | TYPOGRAPHY
+.price-free {
+  .price-title {
+    @include heading4;
+    text-align: left;
+    color: $white;
+  }
+  .price-description {
+    @include description;
+    text-align: left;
+    color: $white;
+    mix-blend-mode: normal;
+    opacity: 0.6;    
+  }
+}
+// FREE DETAILS | TYPOGRAPHY
+.price-details {
+  .price-amount {
+    @include heading2;
+    color: $white;
+  }
+  // FREE CHECK ITEMS | TYPOGRAPHY
+  .product {
+    color: $white;
+  }
+}
+
+
 /* ========================================================================= */
 /* 3. LAYOUT */
 /* LOGO | LAYOUT */
@@ -138,7 +180,7 @@ body {
 #maker-lifestyle {
   height: 1134px;
   width: 327px;
-  margin: 145px 0;
+  margin: 135px 0;
   .component {
     @include flexbox;
     /* ILLUSTRATION ICONS | LAYOUT */
@@ -184,6 +226,69 @@ body {
     }
   }
 }
+
+/* PRICING | LAYOUT */
+#pricing {
+  @include reset;
+  .pricing-info{
+    width: 327px;
+    margin: 0 24px;
+    .p {
+      margin-top: 26px;
+    }
+  }
+
+  /* FREE | LAYOUT */
+  .price-free {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    background-color: $secondary;
+    height: 436px;
+    width: 327px;
+    border-radius: 8px;
+    margin: 79px 24px 32px 24px;
+    .circle-icon {
+      position: absolute;
+      top: -23px;
+      left: 30px;
+    }
+}
+
+.price-title {
+  height: 25px;
+  width: 107px;
+  margin: 49px 0 0 30px;
+}
+.price-description {
+  height: 75px;
+  width: 268px;
+  margin: 19px 0 26px 30px;
+}
+}
+/* FREE | DETAILS & CHECK ITEMS | LAYOUT */
+.price-details {
+  height: 210px;
+  width: 269px;
+  margin: 0 28.68px 32px 29.32px;
+  .check-bullets {
+    margin-top: 19px;
+  }
+  .products {
+    margin-bottom: 12px;
+    .checkmark {
+      margin-right: 15.32px;
+    }
+    .last {
+      margin-bottom: 32px; 
+    }
+  }
+}
+
+
+
 
 /* ========================================================================= */
 /* 4. MEDIA QUERIES */

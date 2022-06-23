@@ -62,6 +62,60 @@ body {
   text-align: center;
 }
 
+/* PRICING | TYPOGRAPHY */
+.pricing-info .h2-title {
+  font-family: "Manrope", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 55px;
+  letter-spacing: 0px;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.pricing-info .p {
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.price-free .price-title {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+.price-free .price-description {
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.price-details .price-amount {
+  font-family: "Manrope", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 55px;
+  letter-spacing: 0px;
+  color: rgb(255, 255, 255);
+}
+.price-details .product {
+  color: rgb(255, 255, 255);
+}
+
 /* ========================================================================= */
 /* 3. LAYOUT */
 /* LOGO | LAYOUT */
@@ -103,7 +157,7 @@ body {
 #maker-lifestyle {
   height: 1134px;
   width: 327px;
-  margin: 145px 0;
+  margin: 135px 0;
 }
 #maker-lifestyle .component {
   display: flex;
@@ -154,6 +208,66 @@ body {
 #maker-lifestyle .component .lifestyle, #maker-lifestyle .component .travel {
   width: 100%;
   margin-left: -1px;
+}
+
+/* PRICING | LAYOUT */
+#pricing {
+  margin: 0;
+  padding: 0;
+  /* FREE | LAYOUT */
+}
+#pricing .pricing-info {
+  width: 327px;
+  margin: 0 24px;
+}
+#pricing .pricing-info .p {
+  margin-top: 26px;
+}
+#pricing .price-free {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  background-color: rgb(9, 62, 103);
+  height: 436px;
+  width: 327px;
+  border-radius: 8px;
+  margin: 79px 24px 32px 24px;
+}
+#pricing .price-free .circle-icon {
+  position: absolute;
+  top: -23px;
+  left: 30px;
+}
+#pricing .price-title {
+  height: 25px;
+  width: 107px;
+  margin: 49px 0 0 30px;
+}
+#pricing .price-description {
+  height: 75px;
+  width: 268px;
+  margin: 19px 0 26px 30px;
+}
+
+/* FREE | DETAILS & CHECK ITEMS | LAYOUT */
+.price-details {
+  height: 210px;
+  width: 269px;
+  margin: 0 28.68px 32px 29.32px;
+}
+.price-details .check-bullets {
+  margin-top: 19px;
+}
+.price-details .products {
+  margin-bottom: 12px;
+}
+.price-details .products .checkmark {
+  margin-right: 15.32px;
+}
+.price-details .products .last {
+  margin-bottom: 32px;
 }
 
 /* ========================================================================= */
