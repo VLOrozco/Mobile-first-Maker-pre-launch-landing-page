@@ -508,4 +508,34 @@ body {
   #main .scroll {
     margin-top: -26px;
   }
+
+  #maker-lifestyle {
+    width: 573px;
+    height: 614px;
+    margin-left: 97px;
+    margin-right: 98px;
+  }
+  #maker-lifestyle :nth-child(odd) {
+    margin-left: 30px;
+  }
+  #maker-lifestyle :nth-child(even) {
+    margin-left: -90px;
+  }
+  #maker-lifestyle .component {
+    flex-direction: row;
+  }
+  #maker-lifestyle .component .bg-color {
+    width: 120px;
+    height: 123px;
+  }
+  #maker-lifestyle .component-txt {
+    margin-left: 55px;
+  }
+  #maker-lifestyle .component-txt .title, #maker-lifestyle .component-txt .description {
+    text-align: left;
+  }
+  #maker-lifestyle .component-txt .description {
+    margin-left: 0;
+    width: 340px;
+  }
 }/*# sourceMappingURL=style.css.map */

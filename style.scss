@@ -497,4 +497,33 @@ body {
       margin-top: -26px;
     }
   }
+  #maker-lifestyle {
+    width: 573px;
+    height: 614px;
+    margin-left: 97px;
+    margin-right: 98px;
+    :nth-child(odd) {
+      margin-left: 30px;
+    }
+    :nth-child(even) {
+      margin-left: -90px;
+    }
+    .component {
+      flex-direction: row;
+      .bg-color {
+        width: 120px;
+        height: 123px;
+      }
+    }
+    .component-txt {
+      margin-left: 55px;
+      .title, .description {
+        text-align: left;
+      }
+      .description {
+        margin-left: 0;
+        width: 340px;
+      }
+    }
+  }
 }
