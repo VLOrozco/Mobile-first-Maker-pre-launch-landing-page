@@ -537,10 +537,9 @@ body {
   }
   /* PRICING SECTION */
   #pricing {
-    background-color:purple;
     width: 573px;
     height: 110px;
-    margin: 13px 98px 1150px 91px;
+    margin: 13px 98px 1020px 91px;
     .pricing-info {
       width: 100%;
     }
@@ -554,7 +553,7 @@ body {
       width: 100%;
       width: 445px;height: 427px;
       margin-top: 75px;
-      margin-left: 61px;
+      margin-left: 91px;
       padding-left: 3px;
       .price-description {
         width: 369px;
@@ -586,4 +585,37 @@ body {
     margin-left: 30px;
   }
 
+  /* FOOTER  | GET NOTIFIED */
+  #get-notified {
+    width: 768px;
+  }
+  .notified-img {
+    width: 1022px;
+    height: 140px;
+    position: relative;
+    left: -240px;
+    margin-top: 138px;
+  }
+  .notification-txt {
+    width: 476px;
+    height: 110px;
+    margin-left: 145px;
+    margin-bottom: 40px;
+    margin-top: -125px;
+    .notified-title {
+      width:100%;
+    }
+  }
+  .input {
+    width: 476px;
+    display: flex;
+    flex-direction: row;
+    #email {
+      width: 320px;
+      margin-right: 16px;
+    }
+    #submit {
+      width: 140px;
+    }
+  }
 }
