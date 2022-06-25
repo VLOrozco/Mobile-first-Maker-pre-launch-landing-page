@@ -651,4 +651,22 @@ body {
     }
   }
 
+  /* MAIN */
+  #main {
+    top: 230px;
+    left: 450px;
+    h1 {
+      width: 530px;
+      margin-top: 68px;
+      @include heading1;
+    }
+    p {
+      width: 540px;
+      margin-top: 16px;
+    }
+    .scroll {
+      margin-top: 7px;
+    }
+  }
+
 }
