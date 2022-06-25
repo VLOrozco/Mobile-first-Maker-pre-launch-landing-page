@@ -621,7 +621,34 @@ body {
 }
 
 @media screen and (min-width: 1400px) {
-
-
+  #logo {
+    margin-left: 165px;
+    margin-top: 81px;
+    margin-bottom: 114px;
+  }
+  .bg-hero-img {
+    width: 1440PX;
+    margin-top: -100px;
+    #hero-squiggle {
+      width: 544.31px;
+      height: 377.98px;
+      margin-left: 96.5px;
+      margin-right: 96.5px;
+      margin-top: -18px;
+    }
+    .drawing {
+      margin-top: 100px;
+    }
+    #hero-left {
+      width: 408px;
+      height: 459px;
+      
+    }
+    #hero-right {
+      width: 396px;
+      height: 444px;
+      margin-top: 100px;
+    }
+  }
 
 }
