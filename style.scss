@@ -668,5 +668,71 @@ body {
       margin-top: 7px;
     }
   }
+  
+  /* LIFESTYLE SECTION */
+  #maker-lifestyle {
+    width: 1110px;
+    height: 383px;
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // COMPONENT LAYOUT
+    :nth-child(odd) {
+      margin-left: 0;
+      margin-top: 23px;
+    }
+    :nth-child(even) {
+      margin-left: 0;
+    }
+    .component {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 255px;height: 335px;
+      margin-top: -5px;
+      .bg-color {
+        width: 160px;
+        height: 164px;
+        .egg {
+          height: 106px;
+          width: 88px;
+          margin: 29px 32px 29px 40px;
+        }
+        .money {
+          height: 89px;
+          width: 74px;
+          margin: 38px 43px;
+        }
+        .martini {
+          height: 94px;
+          width: 80px;
+          margin: 36px 40px 34px 40px;
+        }
+        .car {
+          height: 74px;
+          width: 104px;
+          margin: 45px 28px;
+        }
+      }
+      .component-txt {
+        width: 235px;height: 123px;
+        .title {
+          margin-top: 25px;
+        }
+        .description {
+          width: 245px;height: 75px;
+          margin-top: 24px;
+        }
+      }
+    }
+    #money, #car {
+      margin-top: 109px; 
+    }
+    .layout {
+      margin-top: 0;
+    }
+  }
 
 }
