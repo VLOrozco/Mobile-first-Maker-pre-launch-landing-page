@@ -762,6 +762,9 @@ body {
   }
 
   /* PRICING SECTION | MQ 1440 */
+  #pricing {
+    margin-bottom: 810px;
+  }
   #pricing .pricing-info {
     width: 540px;
     height: 118px;
@@ -803,38 +806,27 @@ body {
 
   /* FOOTER | MQ 1440 */
   #get-notified {
-    width: 768px;
-  }
-
-  .notified-img {
-    width: 1022px;
-    height: 140px;
-    position: relative;
-    left: -240px;
-    margin-top: 138px;
-  }
-
-  .notification-txt {
-    width: 476px;
-    height: 110px;
-    margin-left: 145px;
-    margin-bottom: 40px;
-    margin-top: -125px;
-  }
-  .notification-txt .notified-title {
     width: 100%;
   }
 
-  .input {
-    width: 476px;
-    display: flex;
-    flex-direction: row;
+  .notified-img {
+    width: 1665px;
+    height: 228px;
+    margin-top: 0;
   }
-  .input #email {
-    width: 320px;
-    margin-right: 16px;
+
+  .notification-txt {
+    width: 730px;
+    height: 134px;
+    margin-left: 350px;
+    margin-bottom: 159px;
+    margin-top: -185px;
   }
-  .input #submit {
-    width: 140px;
+  .notification-txt .notified-title {
+    font-family: "Manrope", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0px;
   }
 }/*# sourceMappingURL=style.css.map */
