@@ -136,6 +136,7 @@ body {
   line-height: 55px;
   letter-spacing: 0px;
   font-style: normal;
+  color: #080C20 !important;
 }
 .dollar-amount small {
   font-family: "Manrope", sans-serif;
@@ -146,6 +147,10 @@ body {
   color: #080C20;
   mix-blend-mode: normal;
   opacity: 0.6;
+}
+
+.product-pd {
+  color: rgb(8, 12, 32) !important;
 }
 
 .notification-txt .notified-title {
@@ -333,10 +338,10 @@ body {
   align-items: flex-start;
   position: relative;
   background-color: rgb(62, 233, 229);
-  height: 455px;
+  height: 400px;
   width: 327px;
   border-radius: 8px;
-  margin: 66px 24px 144px 0;
+  margin: 98px 24px 144px -28px;
   padding-top: 11px;
   padding-bottom: 32px;
 }

@@ -157,12 +157,16 @@ body {
 .dollar-amount {
   @include heading2;
   font-style: normal;
+  color: #080C20 !important;
   small {
   @include description;
   color: #080C20;
   mix-blend-mode: normal;
   opacity: 0.6;
   }
+}
+.product-pd {
+  color: rgba(8, 12, 32, 1) !important;
 }
 
 .notification-txt {
@@ -342,10 +346,10 @@ body {
   align-items: flex-start;
   position: relative;
   background-color: $accent;
-  height: 455px;
+  height: 400px;
   width: 327px;
   border-radius: 8px;
-  margin: 66px 24px 144px 0;
+  margin: 98px 24px 144px -28px;
   padding-top: 11px;
   padding-bottom: 32px;
   .geometric-icon {
@@ -402,7 +406,6 @@ body {
   left: -100px;
 }
 .notification-txt {
-  // background-color: pink;
   @include flexbox;
   position: absolute;
   height: 218px;
