@@ -478,7 +478,7 @@ body {
     }
   }
 
-  /* MAIN */
+  /* MAIN | MQ 768 */
   #main {
     position: absolute;
     top: 128px;
@@ -497,14 +497,14 @@ body {
       margin-top: -26px;
     }
   }
-  /* LIFESTYLE SECTION */
+  /* LIFESTYLE SECTION | MQ 768 */
   #maker-lifestyle {
     width: 573px;
     height: 614px;
     margin-left: 97px;
     margin-right: 98px;
     margin-top: 73px;
-    // COMPONENT LAYOUT
+    // COMPONENT LAYOUT | MQ 768
     :nth-child(odd) {
       margin-left: 30px;
     }
@@ -522,7 +522,7 @@ body {
     .layout {
       margin-top: -34px;
     }
-    // COMPONENT TEXT
+    // COMPONENT TEXT | MQ 768
     .component-txt {
       margin-left: 55px;
       margin-top: 23.5px;
@@ -535,7 +535,7 @@ body {
       }
     }
   }
-  /* PRICING SECTION */
+  /* PRICING SECTION | MQ 768 */
   #pricing {
     width: 573px;
     height: 110px;
@@ -548,7 +548,7 @@ body {
       line-height: 32.78px;
       margin-top: 22px;
     }
-    // FREE
+    // FREE | MQ 768
     .price-free {
       width: 100%;
       width: 445px;height: 427px;
@@ -561,7 +561,7 @@ body {
       }
     }
   }
-  // FREE | DETAILS & CHECK ITEMS
+  // FREE | MQ 768
   .price-details {
     margin-top: -3.5px;
   }
@@ -573,7 +573,7 @@ body {
     }
   }
 
-  /* PAID */
+  /* PAID | MQ 768 */
   .price-paid {
     height: 482px;
     width: 445px;
@@ -585,7 +585,7 @@ body {
     margin-left: 30px;
   }
 
-  /* FOOTER  | GET NOTIFIED */
+  /* FOOTER | MQ 768 */
   #get-notified {
     width: 768px;
   }
@@ -651,7 +651,7 @@ body {
     }
   }
 
-  /* MAIN */
+  /* MAIN | MQ 1440 */
   #main {
     top: 230px;
     left: 450px;
@@ -669,7 +669,7 @@ body {
     }
   }
   
-  /* LIFESTYLE SECTION */
+  /* LIFESTYLE SECTION | MQ 1440 */
   #maker-lifestyle {
     width: 1110px;
     height: 383px;
@@ -679,7 +679,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    // COMPONENT LAYOUT
+    // COMPONENT LAYOUT | MQ 1440
     :nth-child(odd) {
       margin-left: 0;
       margin-top: 23px;
@@ -735,4 +735,75 @@ body {
     }
   }
 
+  /* PRICING SECTION | MQ 1440 */
+  #pricing {
+    .pricing-info {
+      width: 540px;
+      height: 118px;
+      margin: 95px 450px 20px 360px;
+    }
+    .h2-title {
+      @include heading3;
+    }
+    #price-container {
+      width: 920px;
+      height: 482px;
+      margin: 0 165px;
+      margin-top: 108px;
+    }
+    // FREE | MQ 1440
+    .price-free {
+      height: 425px;
+      margin-top: 0;
+      margin-left: 0;
+      padding-left: 3px;
+      top: 14px;
+    }
+  }
+
+  /* PAID | MQ 1440 */
+  .price-paid {
+    height: 382px;
+    margin: 0;
+    top: -419px;
+    right: -443px;
+  }
+  .dollar-amount {
+    margin-top: -28px;
+    margin-left: 30px;
+  }
+
+  /* FOOTER | MQ 1440 */
+  #get-notified {
+    width: 768px;
+  }
+  .notified-img {
+    width: 1022px;
+    height: 140px;
+    position: relative;
+    left: -240px;
+    margin-top: 138px;
+  }
+  .notification-txt {
+    width: 476px;
+    height: 110px;
+    margin-left: 145px;
+    margin-bottom: 40px;
+    margin-top: -125px;
+    .notified-title {
+      width:100%;
+    }
+  }
+  .input {
+    width: 476px;
+    display: flex;
+    flex-direction: row;
+    #email {
+      width: 320px;
+      margin-right: 16px;
+    }
+    #submit {
+      width: 140px;
+    }
+  }
 }

@@ -485,7 +485,7 @@ body {
     margin-top: 56px;
   }
 
-  /* MAIN */
+  /* MAIN | MQ 768 */
   #main {
     position: absolute;
     top: 128px;
@@ -509,7 +509,7 @@ body {
     margin-top: -26px;
   }
 
-  /* LIFESTYLE SECTION */
+  /* LIFESTYLE SECTION | MQ 768 */
   #maker-lifestyle {
     width: 573px;
     height: 614px;
@@ -546,7 +546,7 @@ body {
     width: 340px;
   }
 
-  /* PRICING SECTION */
+  /* PRICING SECTION | MQ 768 */
   #pricing {
     width: 573px;
     height: 110px;
@@ -585,7 +585,7 @@ body {
     margin-bottom: 48px;
   }
 
-  /* PAID */
+  /* PAID | MQ 768 */
   .price-paid {
     height: 482px;
     width: 445px;
@@ -598,7 +598,7 @@ body {
     margin-left: 30px;
   }
 
-  /* FOOTER  | GET NOTIFIED */
+  /* FOOTER | MQ 768 */
   #get-notified {
     width: 768px;
   }
@@ -666,7 +666,7 @@ body {
     margin-top: 100px;
   }
 
-  /* MAIN */
+  /* MAIN | MQ 1440 */
   #main {
     top: 230px;
     left: 450px;
@@ -688,7 +688,7 @@ body {
     margin-top: 7px;
   }
 
-  /* LIFESTYLE SECTION */
+  /* LIFESTYLE SECTION | MQ 1440 */
   #maker-lifestyle {
     width: 1110px;
     height: 383px;
@@ -754,5 +754,82 @@ body {
   }
   #maker-lifestyle .layout {
     margin-top: 0;
+  }
+
+  /* PRICING SECTION | MQ 1440 */
+  #pricing .pricing-info {
+    width: 540px;
+    height: 118px;
+    margin: 95px 450px 20px 360px;
+  }
+  #pricing .h2-title {
+    font-family: "Manrope", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0px;
+  }
+  #pricing #price-container {
+    width: 920px;
+    height: 482px;
+    margin: 0 165px;
+    margin-top: 108px;
+  }
+  #pricing .price-free {
+    height: 425px;
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 3px;
+    top: 14px;
+  }
+
+  /* PAID | MQ 1440 */
+  .price-paid {
+    height: 382px;
+    margin: 0;
+    top: -419px;
+    right: -443px;
+  }
+
+  .dollar-amount {
+    margin-top: -28px;
+    margin-left: 30px;
+  }
+
+  /* FOOTER | MQ 1440 */
+  #get-notified {
+    width: 768px;
+  }
+
+  .notified-img {
+    width: 1022px;
+    height: 140px;
+    position: relative;
+    left: -240px;
+    margin-top: 138px;
+  }
+
+  .notification-txt {
+    width: 476px;
+    height: 110px;
+    margin-left: 145px;
+    margin-bottom: 40px;
+    margin-top: -125px;
+  }
+  .notification-txt .notified-title {
+    width: 100%;
+  }
+
+  .input {
+    width: 476px;
+    display: flex;
+    flex-direction: row;
+  }
+  .input #email {
+    width: 320px;
+    margin-right: 16px;
+  }
+  .input #submit {
+    width: 140px;
   }
 }/*# sourceMappingURL=style.css.map */
