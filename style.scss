@@ -197,7 +197,7 @@ body {
 /* 3. LAYOUT */
 /* LOGO | LAYOUT */
 #logo {
-  margin-top: 30.1px;
+  margin-top: 38px;
   margin-bottom: 65.5px;
 }
 #hero-img-mobile {
@@ -211,6 +211,7 @@ body {
 /* MAIN | LAYOUT */
 #main {
   @include flexbox;
+  margin-top: 3px;
   h1 {
     height: 122px;
     width: 250px;
@@ -229,6 +230,7 @@ body {
   height: 1134px;
   width: 327px;
   margin: 135px 0;
+  margin-top: 145px;
   .component {
     @include flexbox;
     /* ILLUSTRATION ICONS | LAYOUT */
@@ -280,6 +282,7 @@ body {
   @include reset;
   height: 1163px;
   margin-bottom: 144px;
+  margin-top: -14px;
 
   .pricing-info{
     width: 327px;
@@ -305,6 +308,9 @@ body {
       position: absolute;
       top: -23px;
       left: 30px;
+    }
+    .price-amount {
+      margin-left: 0;
     }
 }
 
@@ -374,7 +380,9 @@ body {
   justify-content: space-between;
   width: 205px;
   height: 55px;
-  margin-left: 30.5px;
+}
+.dollar-amount {
+  margin-left: 30.5px !important;
 }
 .pd-check-bullets {
   width: 269px;
@@ -444,9 +452,7 @@ body {
     align-items: flex-start;
   }
   #logo {
-    margin-left: 39px;
-    margin-top: 48px;
-    margin-bottom: 10px;
+    margin: 48px 0 10px 39px;
   }
 
   #hero-img-mobile {
@@ -463,9 +469,7 @@ body {
     #hero-squiggle {
       width: 386px;
       height: 268px;
-      margin-left: 45px;
-      margin-right: 45px;
-      margin-top: 50px;
+      margin: 50px 45px 0 45px;
     }
     .drawing {
       margin-top:70px;
@@ -488,9 +492,10 @@ body {
     left: 191px;
     h1 {
       width: 350px;
-      margin-top: 80px;
+      margin-top: 78px;
       margin-bottom: 0;
       @include heading3;
+      line-height: 42px;
     }
     p {
       width: 457px;
@@ -504,9 +509,7 @@ body {
   #maker-lifestyle {
     width: 573px;
     height: 614px;
-    margin-left: 97px;
-    margin-right: 98px;
-    margin-top: 73px;
+    margin: 73px 98px 0 97px;
     // COMPONENT LAYOUT | MQ 768
     :nth-child(odd) {
       margin-left: 30px;
@@ -542,7 +545,7 @@ body {
   #pricing {
     width: 573px;
     height: 110px;
-    margin: 13px 98px 1020px 91px;
+    margin: 150px 98px 1020px 91px;
     .pricing-info {
       width: 100%;
     }
@@ -554,7 +557,8 @@ body {
     // FREE | MQ 768
     .price-free {
       width: 100%;
-      width: 445px;height: 427px;
+      width: 445px;
+      height: 427px;
       margin-top: 75px;
       margin-left: 91px;
       padding-left: 3px;
@@ -569,7 +573,7 @@ body {
     margin-top: -3.5px;
   }
   .price-amount {
-    margin-left: 0;
+    margin-top: -14px;
   }.products {
     .last {
       margin-bottom: 48px;
@@ -580,7 +584,7 @@ body {
   .price-paid {
     height: 380px;
     width: 445px;
-    margin-top: 97px;
+    margin-top: 114px;
     padding-bottom: 59px;
   }
   .dollar-amount {
@@ -602,9 +606,7 @@ body {
   .notification-txt {
     width: 476px;
     height: 110px;
-    margin-left: 145px;
-    margin-bottom: 40px;
-    margin-top: -125px;
+    margin: -125px 23.5px 40px 145px;
     .notified-title {
       width:100%;
     }
@@ -625,9 +627,7 @@ body {
 
 @media screen and (min-width: 1400px) {
   #logo {
-    margin-left: 165px;
-    margin-top: 81px;
-    margin-bottom: 114px;
+    margin: 81px 0 114px 165px;
   }
   .bg-hero-img {
     width: 1440PX;
@@ -635,9 +635,7 @@ body {
     #hero-squiggle {
       width: 544.31px;
       height: 377.98px;
-      margin-left: 96.5px;
-      margin-right: 96.5px;
-      margin-top: -18px;
+      margin: -18px 96.5px 0 96.5px;
     }
     .drawing {
       margin-top: 100px;
@@ -676,9 +674,7 @@ body {
   #maker-lifestyle {
     width: 1110px;
     height: 383px;
-    margin-left: 165px;
-    margin-right: 165px;
-    margin-top: 150px;
+    margin: 150px 165px 0 165px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -693,8 +689,8 @@ body {
     .component {
       flex-direction: column;
       align-items: flex-start;
-      width: 255px;height: 335px;
-      margin-top: -5px;
+      width: 255px;
+      height: 335px;
       .bg-color {
         width: 160px;
         height: 164px;
@@ -720,7 +716,8 @@ body {
         }
       }
       .component-txt {
-        width: 235px;height: 123px;
+        width: 235px;
+        height: 123px;
         .title {
           margin-top: 25px;
         }
@@ -741,6 +738,7 @@ body {
   /* PRICING SECTION | MQ 1440 */
   #pricing {
     margin-bottom: 810px;
+    margin-top: 160px;
     .pricing-info {
       width: 540px;
       height: 118px;
@@ -750,18 +748,16 @@ body {
       @include heading3;
     }
     #price-container {
-      width: 920px;
+      width: 1000px;
       height: 482px;
       margin: 0 165px;
-      margin-top: 108px;
+      margin-top: 133px;
     }
     // FREE | MQ 1440
     .price-free {
       height: 425px;
       margin-top: 0;
       margin-left: 0;
-      padding-left: 3px;
-      top: 14px;
     }
   }
 
@@ -770,11 +766,7 @@ body {
     height: 382px;
     margin: 0;
     top: -419px;
-    right: -443px;
-  }
-  .dollar-amount {
-    margin-top: -28px;
-    margin-left: 30px;
+    right: -446px;
   }
 
   /* FOOTER | MQ 1440 */
@@ -789,11 +781,12 @@ body {
   .notification-txt {
     width: 730px;
     height: 134px;
-    margin-left: 350px;
-    margin-bottom: 159px;
-    margin-top: -185px;
+    margin: -185px 23.5px 159px 350px;
     .notified-title {
       @include heading3;
+    }
+    .input {
+      margin-top: 10px; 
     }
   }
 }
