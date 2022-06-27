@@ -140,14 +140,18 @@
 
 <section id="get-notified">
   <img class="notified-img" src="/assets/bg-footer-squiggle.svg" alt="" width="584" height="80px">
-  <div class="notification-txt">
+  <div class="notification-txt err">
     <h2 class="notified-title">Get notified when we launch</h2>
-    <div class="input">
-    <input type="email" id="email" name="Email address" placeholder="Email address" required>
-    <input type="submit" id="submit" value="Get notified">
-    </div>
+    <form class="input" name="form1" action="#">
+    <input type="email" id="email" class="err-border" name="email address" placeholder="Email address" required>
+    <input type="submit" id="submit" value="Get notified" onclick="ValidateEmail(document.form1.email)">
+    </form>
+    <div id="invalid">Oops! That doesn't look like a valid email address</div>
+    <div id="valid">Valid email address!</div>
   </div>
 </section>
+
+<script src="main.js"></script> 
 
 </body>
 </html>
