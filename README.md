@@ -66,10 +66,15 @@ Users should be able to:
 
 In this challenge, I practiced creating an email form within an index.html document. I learned the formatting in index.html and how to create a form validation function with JavaScript.
 
-Here is a code snippet of the email form in index.html:
+Here is a code snippet of the email form written in the index.html file:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<form class="input" name="form1" action="#">
+    <input type="email" id="email" class="err-border" name="email address" placeholder="Email address" required>
+    <input type="submit" id="submit" value="Get notified" onclick="ValidateEmail(document.form1.email)">
+    <div id="invalid"></div>
+    <div id="valid"></div>
+    </form>
 ```
 <br/>
 
@@ -94,8 +99,9 @@ In previous challenges, I have utilized GitHub Desktop to create my repositories
 
 - [StackOverflow | JS | validation for empty input field](https://stackoverflow.com/questions/3937513/javascript-validation-for-empty-input-field) - This resource helped with creating a function to check if the client input is empty.
 
-- [Cognito Forms | JS | Error validation](https://www.cognitoforms.com/blog/106/css-tips-and-tricks-for-customizing-error-messages
-) - This article gave me the idea to set my validation response to transparent within the css property, then set the style of the properties color/background and manipulate the innerHTML of the response through JavaScript.
+- [w3resource | JS | HTML Form | email validation](https://www.w3resource.com/javascript/form/email-validation.php
+) - Through this w3resource webpage, I acquired the *Regular Expression Pattern* and valuable details for email validation in JavaScript.
+
 
 ---
 ## Author
