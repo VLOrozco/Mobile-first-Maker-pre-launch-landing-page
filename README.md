@@ -93,9 +93,7 @@ In previous challenges, I have utilized GitHub Desktop to create my repositories
 
 - [W3schools | JS | HTML DOM css](https://www.w3schools.com/js/js_htmldom_css.asp) - This resource provided the format for changing the style of a property in the DOM.
 
-
 - [W3schools | JS | match() method](https://www.w3schools.com/jsref/jsref_match.asp) - This resource helped with email validation and checking if the client input was empty.
-
 
 - [StackOverflow | JS | validation for empty input field](https://stackoverflow.com/questions/3937513/javascript-validation-for-empty-input-field) - This resource helped with creating a function to check if the client input is empty.
 
