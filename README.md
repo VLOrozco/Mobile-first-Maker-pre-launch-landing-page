@@ -48,34 +48,23 @@ Users should be able to:
 
 ### What I learned
 
-In this challenge, I learned about form formatting in index.html.
+In this challenge, I practiced creating an email form within an index.html document. I learned the formatting in index.html and how to create a form validation function with JavaScript.
 
 To see how you can add code snippets, see below:
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+In previous challenges, I have utilized GitHub Desktop to create my repositories and commit changes. Throughout this current project, I focused on applying my skills with Git in the terminal to create my repository and commits. My preference is to use GitHub Desktop, as it allows the visual element of viewing all changes made to the document, as well as giving the option to select which changes to commit - *making it easier to organize commits before pushing them to the repository*. Yet, for continued development, I will continue to use Git within the terminal for my repositories & commits, as it will be a valuable tool for source code management.
 
 
 ---
 ## Links
 
 - Solution URL: [Github Code](https://github.com/VLOrozco/Mobile-first-Maker-pre-launch-landing-page.git)
-- Live Site URL: [order-summary-component](https://vlorozco.github.io/Mobile-first-Maker-pre-launch-landing-page/)
+- Live Site URL: [Maker Pre-launch Landing Page](https://vlorozco.github.io/Mobile-first-Maker-pre-launch-landing-page/)
 
 ---
 ## Built with
@@ -83,17 +72,20 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 - HTML5
 - CSS
 - CSS Flexbox
-- JavaScript Form | Email Validation
+- JavaScript | Form : Email Validation
 - Mobile-first workflow
 
 ---
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [W3schools | JS | HTML DOM css](https://www.w3schools.com/js/js_htmldom_css.asp) - This resource provided the format for changing the style of a property in the DOM.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+
+- [W3schools | JS | match() method](https://www.w3schools.com/jsref/jsref_match.asp) - This resource helped with email validation and checking if the client input was empty.
+
+
+- [StackOverflow | JS | validation for empty input field](https://stackoverflow.com/questions/3937513/javascript-validation-for-empty-input-field) - This resource helped with creating a function to check if the client input is empty.
 
 ---
 ## Author
