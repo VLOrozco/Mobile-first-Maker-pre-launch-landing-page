@@ -94,6 +94,9 @@ In previous challenges, I have utilized GitHub Desktop to create my repositories
 
 - [StackOverflow | JS | validation for empty input field](https://stackoverflow.com/questions/3937513/javascript-validation-for-empty-input-field) - This resource helped with creating a function to check if the client input is empty.
 
+- [Cognito Forms | JS | Error validation](https://www.cognitoforms.com/blog/106/css-tips-and-tricks-for-customizing-error-messages
+) - This article gave me the idea to set my validation response to transparent within the css property, then set the style of the properties color/background and manipulate the innerHTML of the response through JavaScript.
+
 ---
 ## Author
 
