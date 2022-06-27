@@ -819,4 +819,14 @@ body {
   .notification-txt .input {
     margin-top: 10px;
   }
+}
+/* ACTIVE STATES */
+#email:hover, #email:focus {
+  outline: 2px solid rgb(62, 233, 229);
+}
+
+#submit:hover, #submit:focus {
+  background-color: hsl(230deg, 60%, 8%);
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(62, 233, 229);
 }/*# sourceMappingURL=style.css.map */
