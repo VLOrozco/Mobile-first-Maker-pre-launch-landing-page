@@ -838,18 +838,9 @@ body {
 .err .err-border {
   outline: 2px solid transparent;
 }
-.err #invalid {
+.err #validation {
   position: absolute;
   font-size: 12px;
-  color: transparent;
-  top: 140px;
-  left: 147px;
-}
-
-.err #valid {
-  position: absolute;
-  font-size: 12px;
-  color: transparent;
   top: 140px;
   left: 147px;
 }/*# sourceMappingURL=style.css.map */
