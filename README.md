@@ -2,19 +2,21 @@
 
 This is a solution to the [Maker pre-launch landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/maker-prelaunch-landing-page-WVZIJtKLd). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+---
+
 ## Table of contents
 
 - [Frontend Mentor - Maker pre-launch landing page solution](#frontend-mentor---maker-pre-launch-landing-page-solution)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
     - [Mobile View](#mobile-view)
     - [Tablet View](#tablet-view)
     - [Desktop View](#desktop-view)
-    - [What I learned](#what-i-learned)
-  - [Links](#links)
   - [Built with](#built-with)
+  - [Links](#links)
+  - [What I learned](#what-i-learned)
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
@@ -33,7 +35,7 @@ Users should be able to:
   - The email is not formatted correctly should show "Oops! That doesn’t look like an email address"
 
 ---
-## Screenshot
+## Screenshots
 
 ### Mobile View
 <img src="assets/mobileView.png" alt="stat preview card component in mobile view" width="50%"/>
@@ -45,28 +47,6 @@ Users should be able to:
 <img src="assets/desktopView.png" alt="stat preview card component in desktop view" width="100%"/>
 
 ---
-
-### What I learned
-
-In this challenge, I practiced creating an email form within an index.html document. I learned the formatting in index.html and how to create a form validation function with JavaScript.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-
-In previous challenges, I have utilized GitHub Desktop to create my repositories and commit changes. Throughout this current project, I focused on applying my skills with Git in the terminal to create my repository and commits. My preference is to use GitHub Desktop, as it allows the visual element of viewing all changes made to the document, as well as giving the option to select which changes to commit - *making it easier to organize commits before pushing them to the repository*. Yet, for continued development, I will continue to use Git within the terminal for my repositories & commits, as it will be a valuable tool for source code management.
-
-
----
-## Links
-
-- Solution URL: [Github Code](https://github.com/VLOrozco/Mobile-first-Maker-pre-launch-landing-page.git)
-- Live Site URL: [Maker Pre-launch Landing Page](https://vlorozco.github.io/Mobile-first-Maker-pre-launch-landing-page/)
-
----
 ## Built with
 
 - HTML5
@@ -76,6 +56,33 @@ In previous challenges, I have utilized GitHub Desktop to create my repositories
 - Mobile-first workflow
 
 ---
+## Links
+
+- Solution URL: [Github Code](https://github.com/VLOrozco/Mobile-first-Maker-pre-launch-landing-page.git)
+- Live Site URL: [Maker Pre-launch Landing Page](https://vlorozco.github.io/Mobile-first-Maker-pre-launch-landing-page/)
+
+---
+## What I learned
+
+In this challenge, I practiced creating an email form within an index.html document. I learned the formatting in index.html and how to create a form validation function with JavaScript.
+
+Here is a code snippet of the email form in index.html:
+
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
+<br/>
+
+This code snippet below is my JavaScript solution for the form validation function, if the input is empty, then checks if the input is a valid or invalid email.
+
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
+<br/>
+
+In previous challenges, I have utilized GitHub Desktop to create my repositories and commit changes. Throughout this current project, I focused on applying my skills with Git in the terminal to create my repository and commits. My preference is to use GitHub Desktop, as it allows the visual element of viewing all changes made to the document, as well as giving the option to select which changes to commit - *making it easier to organize commits before pushing them to the repository*. Yet, for continued development, I will continue to use Git within the terminal for my repositories & commits, as it will be a valuable tool for source code management.
+<br/>
+<br/>
 
 ### Useful resources
 
