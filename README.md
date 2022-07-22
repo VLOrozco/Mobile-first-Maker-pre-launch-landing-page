@@ -52,6 +52,7 @@ Users should be able to:
 - HTML5
 - CSS
 - CSS Flexbox
+- Sass
 - JavaScript | Form : Email address validation
 - Mobile-first workflow
 
